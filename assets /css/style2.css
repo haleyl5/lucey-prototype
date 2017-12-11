@@ -1,0 +1,33 @@
+*{
+  font-family: sans-serif;
+}
+
+section#personal div,
+section#social div,
+section#resources div {
+  min-height: 250px;
+  margin-bottom: 20px;
+}
+section#personal div {
+  background: #a7d0f9;
+  color: white;
+  font-size: 32px;
+}
+section#social div {
+  background: #a7f9ce;
+  color: white;
+  font-size: 32px;
+}
+section#personal,
+section#social {
+ display: grid;
+ grid-gap: 15px;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+p {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 20px;
+  color: #444;
+}
