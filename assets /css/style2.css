@@ -1,6 +1,6 @@
 html {
   font-size: 15px;
-  color: #171E26;
+  color: #6F7E8C;
   background: #F0F1F4;
 }
 
@@ -12,19 +12,19 @@ header{
   margin-top: -10px;
   text-align: center;
   font-size:50px;
-  border-bottom: 2px solid #6F7E8C;
-  background-color: #EF0C1A;
+  border-bottom: 2px solid #424D58;
+  background-color: #448B8C;
 }
 #image-container,
 #personal-digital,
 #social-digital {
-  /*border-bottom: 2px solid #6F7E8C;*/
+  /*border-bottom: 2px solid #424D58;*/
   padding: 20px;
   display:inline;
 }
 #image-container{
   font-size: 10px;
-  color: #424D58;
+  color: #C999F4;
   float: left;
 }
 #image {
