@@ -1,33 +1,40 @@
-*{
-  font-family: sans-serif;
+html {
+  font-size: 15px;
+  color: #171E26;
+  background: #F0F1F4;
 }
 
-section#personal div,
-section#social div,
-section#resources div {
-  min-height: 250px;
-  margin-bottom: 20px;
+header{
+  padding: 20px;
+  width:100%;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  text-align: center;
+  font-size:50px;
+  border-bottom: 2px solid #6F7E8C;
+  background-color: #EF0C1A;
 }
-section#personal div {
-  background: #a7d0f9;
-  color: white;
-  font-size: 32px;
+#image-container,
+#personal-digital,
+#social-digital {
+  /*border-bottom: 2px solid #6F7E8C;*/
+  padding: 20px;
+  display:inline;
 }
-section#social div {
-  background: #a7f9ce;
-  color: white;
-  font-size: 32px;
+#image-container{
+  font-size: 10px;
+  color: #424D58;
+  float: left;
 }
-section#personal,
-section#social {
- display: grid;
- grid-gap: 15px;
-   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+#image {
+  width: 350px;
 }
 
-p {
-  margin: 40px;
-  font-family: 'Open Sans', 'sans-serif';
-  font-size: 20px;
-  color: #444;
+h1{
+font-size: 25px;
+}
+
+#social-digital{
+
 }
